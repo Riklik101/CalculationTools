@@ -23,5 +23,5 @@ while x != stop:
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:
-        print(f"Collatz verified up to {e}")
+        print(f"Collatz verified up to {x}")
         
