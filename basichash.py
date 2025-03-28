@@ -7,3 +7,4 @@ Collision Resistance: Two different inputs should not produce the same hash.
 Avalanche Effect: A small change in input should result in a drastically different hash.
 '''
 
+unc = input("Unhashed Input: ")
