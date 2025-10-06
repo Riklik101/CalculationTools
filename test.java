@@ -5,26 +5,34 @@ import java.util.Scanner; // Import the Scanner class to read input
  * this is the second line of the comment
  */
 
-public class hello {
+interface myInterface {
+    void operation(int a, int b);
+}
+
+public class test {
     public static void main(String[] args) {
 
 
         System.out.println("Hello, World!");
         System.out.println("This is going to be a simple recap of what I am learning in compsci 1 rn");
-
+        System.out.print("I am likely to forget this in the future so I'll write it down here");
         //---------------start of learning-----------------
-        double flo = 2.445;
-        int x = 3;
+        double flo = 2.445; int x = 3; 
         System.out.println(flo / 0);
         // Dividing a float by 0 gives Infinity, not an error in Java.
+        System.out.println(x);
+
         System.out.println("5/2 (int division): " + (5 / 2)); // 2
         System.out.println("Math.round(5/2): " + Math.round(5 / 2)); // 2
         System.out.println("5.0/2 (double division): " + (5.0 / 2)); // 2.5
+
         // Strings are objects in Java. Use Scanner for input.
         System.out.println("Enter your name: ");
         Scanner input = new Scanner(System.in);
         String name = input.nextLine(); // Read user input
         System.out.println("Hello, " + name); // Output user input
+
+        //Interestingly
         for(int i=0;i<5;i++){
             System.out.println(i);
         }
@@ -34,15 +42,19 @@ public class hello {
         try {
             int[] arr = {1, 2, 3};
             System.out.println(arr[5]); // This will throw an ArrayIndexOutOfBoundsException
-        } catch (Exception e) {
-            System.out.println("An error occurred: " + e.getMessage());
-        }
+        } catch (Exception e) { System.out.println("An error occurred: " + e.getMessage()); }
         try
         {
-            int a = 5 / 0; // This will throw an ArithmeticException
-        } catch (Exception e) {
-            System.out.println("An error occurred: " + e.getMessage());
-        }
+            System.out.println(5/0); // This will throw an ArithmeticException
+        } catch (Exception e) { System.out.println("An error occurred: " + e.getMessage()); }
+
+        //Thankfully, Java makes it tremendously easy to deal with logical input, instead of winding if-else statements
+        name.length(); //gives length of string
+        int a = name.charAt(0); //gives char at index 0
+        String sub = name.substring(0, 2); //gives substring from index 0 to 2 (exclusive)
+        System.out.println(a + sub);
+
+        
 
 
     }

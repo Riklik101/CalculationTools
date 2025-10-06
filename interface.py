@@ -12,8 +12,6 @@ while True:
     try:
         user_input = input("Please enter a command: ")
         debugPrint(user_input)
-        match user_input:
-            case " ":
     except KeyboardInterrupt:
         print("Exiting...")
         break
