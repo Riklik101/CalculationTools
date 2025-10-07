@@ -1,3 +1,4 @@
+package misc;
 import java.util.Scanner; // Import the Scanner class to read input
 //math is a built in library
 // java.lang is imported by default
@@ -9,7 +10,7 @@ interface myInterface {
     void operation(int a, int b);
 }
 
-public class test {
+public class javaref {
     public static void main(String[] args) {
 
 
@@ -53,7 +54,7 @@ public class test {
         int a = name.charAt(0); //gives char at index 0
         String sub = name.substring(0, 2); //gives substring from index 0 to 2 (exclusive)
         System.out.println(a + sub);
-
+        input.close();
         
 
 

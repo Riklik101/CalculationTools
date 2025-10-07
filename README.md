@@ -3,3 +3,12 @@ The interface.py is a basic interface I am trying to implement, to combine the r
 I sometimes come back to this to work, but infrequently due to my lack of interest in python ATM.
 
 I will now be appending this repository with java
+
+## Next steps
+My current plan outline as of 6/10/2025:
+* java.calc will be hosting calc functions and classes
+* ~~python for a system interface due to its simplicity~~ i do not have the time to figure out the integration of both
+* java.interface will be having the interface, due to java's **easy** and *fun* quirks of being so long to write stuff
+* additional programs as necessary
+
+
