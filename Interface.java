@@ -6,7 +6,7 @@ public class Interface {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the expression to evaluate:");
         String s = input.nextLine();
-        System.out.println("Result: " + calc.parseLine(s, true));
+        System.out.println("Result: " + calc.parseLine(s, ));
         input.close();
 
     }
