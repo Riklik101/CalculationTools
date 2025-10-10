@@ -1,5 +1,8 @@
 public class JavaCalc {
-     
+    private final java.util.Scanner input;
+    public JavaCalc(java.util.Scanner input) {
+        this.input = input;
+    }
     //------UNUSED CODE BELOW------
     //returns two strings in an array from the divider
     //String[] dividers = {"*", "/", "+", "-"};
@@ -18,7 +21,13 @@ public class JavaCalc {
         return parsed;
     }*/
 
-    public double 
-
+    public double pythag()
+    {
+        System.out.println("Enter side A");
+        double a = Double.parseDouble(input.nextLine());
+        System.out.println("Enter side B");
+        double b = Double.parseDouble(input.nextLine());
+        return Math.sqrt((a*a)+(b*b));
+    }
     
 }
