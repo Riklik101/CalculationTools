@@ -29,12 +29,12 @@ public class InterfaceMain {
                         System.out.println(calc.bhtriangle());
                         break;
                     default:
-                        System.out.println("Invalid input — please enter a number or press enter to exit.");
+                        System.out.println("Invalid input, please enter a number or press enter to exit.");
                         break;
                 }
                 
             } catch (NumberFormatException e) {
-                System.out.println("Invalid input — please enter a number or press enter to exit.");
+                System.out.println("Invalid input, please enter a number or press enter to exit.");
             } 
         }
     }
