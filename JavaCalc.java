@@ -23,11 +23,19 @@ public class JavaCalc {
 
     public double pythag()
     {
-        System.out.println("Enter side A");
+        System.out.print("Enter side A --> ");
         double a = Double.parseDouble(input.nextLine());
-        System.out.println("Enter side B");
+        System.out.print("Enter side B --> ");
         double b = Double.parseDouble(input.nextLine());
         return Math.sqrt((a*a)+(b*b));
+    }
+    public double bhtriangle()
+    {
+        System.out.print("Enter base --> ");
+        double base = Double.parseDouble(input.nextLine());
+        System.out.print("Enter height --> ");
+        double height = Double.parseDouble(input.nextLine());
+        return 0.5*base*height;
     }
     
 }

@@ -9,8 +9,12 @@ public class InterfaceMain {
         
         while (true){
             try {
+                System.out.println("------------------------");
+                System.out.print("Enter command: ");
                 String line = input.nextLine();
                 if (line.isEmpty()) {
+                    System.out.println("Exiting...");
+                    input.close();
                     System.exit(0);
                 }
                 int c = Integer.parseInt(line.trim());
@@ -19,9 +23,13 @@ public class InterfaceMain {
                         System.out.println("I have no instructions, read the manual inside of the repo.");
                         break;
                     case 1: 
-                        System.out.println(calc.pythag());
+                        System.out.println("third side = " + calc.pythag());
+                        break;
+                    case 2:
+                        System.out.println(calc.bhtriangle());
                         break;
                     default:
+                        System.out.println("Invalid input — please enter a number or press enter to exit.");
                         break;
                 }
                 

@@ -2,4 +2,4 @@ Calculator Manual
 
 Enter nothing to exit, and 0 for help. 
 1 - pythagorean
-2 - triangle area - WIP
+2 - triangle area via base * height
