@@ -26,7 +26,7 @@ public class InterfaceMain {
                         System.out.println("third side = " + calc.pythag());
                         break;
                     case 2:
-                        System.out.println(calc.bhtriangle());
+                        System.out.println("the crappiest calculation: " + calc.bhtriangle());
                         break;
                     default:
                         System.out.println("Invalid input, please enter a number or press enter to exit.");
