@@ -1,3 +1,4 @@
+package javaCalc;
 import java.util.Scanner;
 
 public class InterfaceMain {

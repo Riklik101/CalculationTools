@@ -16,7 +16,18 @@ Program opens with terminal setup,
 User enters commands, it enters that calc and stays until keyboard intercept captures enter,
 Results are directly outputted.
 
+
 Cases:
     For sin,cos,tan, etc; user will input rad or deg at beginning of calculations, then it will stay until keyboard intercept.
     
     Try-Except blocks will be necessary for catching of errors; a programmic or mathmatical error MUST return to terminal screen as otherwise the program will be ungracefully breaking in a net negative manner, which is not my intent. 
+
+-------------------------
+Password Manager: plan to read and write encrypted messages to file
+
+ - [ ] actually get file writing working
+ - [ ] file reading
+ - [ ] encryption/decryption
+ - [ ] UI
+ - [ ] password hashing & verification
+ 

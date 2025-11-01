@@ -1,3 +1,4 @@
+package javaCalc;
 public class JavaCalc {
     private final java.util.Scanner input;
     public JavaCalc(java.util.Scanner input) {
