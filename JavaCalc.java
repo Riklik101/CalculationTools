@@ -18,7 +18,7 @@ public class JavaCalc {
         } catch (Exception e) {
             System.out.println("Error: Exception due to " + e);
         }
-        return parsed;
+        return paresed;
     }*/
 
     public double pythag()
